@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="shortcut icon" href="../icon/logo.svg" type="image/x-icon" />
+    <!-- Font Awesome Intigration -->
+    <script src="https://kit.fontawesome.com/0a353b7928.js"></script>
+    <!-- Bootstrap Intigration -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- CSS Intigration  -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <!--Responsive CSS Intigration  -->
+    <link rel="stylesheet" href="../css/responsive.css" />
+  </head>
+  <body style="background-color: #eceff3">
+    <main>
+      <div class="container-fluid p-0">
+        <div class="row g-0">
+          <div class="col-xl-2 col-lg-3 col-md-4">
+            <div
+              class="
+                d-flex
+                flex-column flex-shrink-0
+                p-3
+                text-white
+                bg-dark
+                vh-100
+                side-bar
+              "
+            >
+              <a
+                href=""
+                class="
+                  mb-5 mb-md-0
+                  me-md-auto
+                  text-center text-white text-decoration-none
+                  responsive-bar
+                "
+              >
+                <img src="../icon/dashboard-logo.png" class="img-fluid" />
+              </a>
+              <button
+                class="
+                  navbar-toggler
+                  position-absolute
+                  d-md-none
+                  collapsed
+                  bg-light
+                  p-1
+                "
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#sidebarMenu"
+                aria-controls="sidebarMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon" style="height: 1.2em"
+                  ><i class="fas fa-bars"></i
+                ></span>
+              </button>
+              <nav id="sidebarMenu" class="d-md-block sidebar collapse mt-3">
+                <div class="position-sticky pt-3">
+                  <ul class="nav flex-column">
+                    <li class="nav-item mb-2">
+                      <a
+                        class="
+                          nav-link
+                          custom-nav-link
+                          text-white
+                          d-flex
+                          align-items-center
+                          active
+                        "
+                        aria-current="page"
+                        href="#"
+                      >
+                        <img
+                          src="../icon/dashboard-icon.png"
+                          alt=""
+                          class="me-3"
+                        />
+                        Dashboard
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a
+                        class="
+                          nav-link
+                          custom-nav-link
+                          text-white
+                          d-flex
+                          align-items-center
+                        "
+                        aria-current="page"
+                        href="#"
+                      >
+                        <img src="../icon/Product.png" alt="" class="me-3" />
+                        My Products
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a
+                        class="
+                          nav-link
+                          custom-nav-link
+                          text-white
+                          d-flex
+                          align-items-center
+                        "
+                        aria-current="page"
+                        href="#"
+                      >
+                        <img src="../icon/requsition.png" alt="" class="me-3" />
+                        My Requisition
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a
+                        class="
+                          nav-link
+                          custom-nav-link
+                          text-white
+                          d-flex
+                          align-items-center
+                        "
+                        aria-current="page"
+                        href="#"
+                      >
+                        <img src="../icon/showroom.png" alt="" class="me-3" />
+                        Outlets
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a
+                        class="
+                          nav-link
+                          custom-nav-link
+                          text-white
+                          d-flex
+                          align-items-center
+                        "
+                        aria-current="page"
+                        href="#"
+                      >
+                        <img src="../icon/myspaces.png" alt="" class="me-3" />
+                        My Spaces
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a
+                        class="
+                          nav-link
+                          custom-nav-link
+                          text-white
+                          d-flex
+                          align-items-center
+                        "
+                        aria-current="page"
+                        href="#"
+                      >
+                        <img src="../icon/payment.png" alt="" class="me-3" />
+                        My Payments
+                      </a>
+                    </li>
+                    <li class="nav-item mb-2">
+                      <a
+                        class="
+                          nav-link
+                          custom-nav-link
+                          text-white
+                          d-flex
+                          align-items-center
+                        "
+                        aria-current="page"
+                        href="#"
+                      >
+                        <img src="../icon/Purchase.png" alt="" class="me-3" />
+                        My Purchases
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+          <div class="col-xl-10 col-lg-9 col-md-8 statistics">
+            <div class="row g-0">
+              <div class="col-12">
+                <div class="top-box">
+                  <div class="search-bar">
+                    <input
+                      class="form-control search-field"
+                      type="search"
+                      placeholder="Search"
+                      aria-label="Search"
+                    />
+                    <a href=""><i class="fas fa-search"></i></a>
+                  </div>
+                  <div class="dropdown">
+                    <a
+                      href="#"
+                      class="
+                        d-flex
+                        align-items-center
+                        text-white text-decoration-none
+                        dropdown-toggl
+                      "
+                      id="dropdownUser1"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img
+                        src="../images/profile-img.png"
+                        alt=""
+                        width="40"
+                        height="40"
+                        class="rounded-circle"
+                      />
+                    </a>
+                    <ul
+                      class="dropdown-menu dropdown-menu-dark text-small shadow"
+                      aria-labelledby="dropdownUser1"
+                    >
+                      <li><a class="dropdown-item" href="#">Profile</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#">Change Passwod</a>
+                      </li>
+                      <li><a class="dropdown-item" href="#">Log out</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

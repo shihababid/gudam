@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services | Gudam</title>
+    <!-- Font Awesome Intigration -->
+    <script src="https://kit.fontawesome.com/fbaa2d6b3e.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="icon/favicon.svg">
+    <!-- Bootstrap Intigration -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Owl Carousel CSS Intigration -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- CSS Intigration  -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <!-- AOS Animation CSS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Header Started  -->
+    <header>
+      <!-- Top Bar Started  -->
+      <!-- <section class="top-bar">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-xl-5 col-lg-6 col-md-8">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="d-flex align-items-center gap-2">
+                    <img src="icon/email.svg" alt="email" />
+                    <p class="m-0">gudam123@gmail.com</p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="d-flex align-items-center gap-2">
+                    <img src="icon/phone.svg" alt="phone" />
+                    <p class="m-0">+880123456789</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-7 col-lg-6 col-md-4">
+              <div class="text-end text-end-margin">
+                <i class="fab fa-facebook-f social-icon"></i>
+                <i class="fab fa-twitter social-icon m-2"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Top Bar End  -->
+
+      <!-- Navbar Started  -->
+      <nav
+        class="
+          navbar
+          sticky-top
+          navbar-expand-lg navbar-light
+          bg-white
+          custom-nav
+        "
+        >
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="icon/logo.png"
+              alt="logo"
+              class="d-inline-block align-text-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item ms-3">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link active" href="single-service.html">Services</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="gudam-list.html">Warehouses</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="nav-link" href="contact-us.html">Contact Us</a>
+              </li>
+              <li class="nav-item ms-3">
+                <a class="btn-start" href="registration-form.html"
+                  >Get Started</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Navbar End -->
+      <!-- Carousel Started  -->
+      <div class="hero-area">
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active dot"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              class="dot"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              class="dot"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active bg-1">
+              <div class="container-fluid" data-aos="fade-right" data-aos-duration="1000">
+                <div class="row align-items-center" style="height: 450px">
+                  <div class="col-lg-7 col-9 slider-content">
+                    <h1 class="text-white">Warehouse Fulfillment</h1>
+                    <p class="text-white">Search online - see space fast</p>
+                    <a class="hero-btn" href="#service-list">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="carousel-item bg-1"
+              style="background-image: url(images/bg-2.png)"
+            >
+              <div class="container-fluid">
+                <div class="row align-items-center" style="height: 450px">
+                  <div class="col-lg-7 col-9 slider-content">
+                    <h1 class="text-white">Logistic Services</h1>
+                    <p class="text-white">Search online - see space fast</p>
+                    <a class="hero-btn" href="#service-list">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="carousel-item bg-1">
+              <div class="container-fluid">
+                <div class="row align-items-center" style="height: 450px">
+                  <div class="col-lg-7 col-9 slider-content">
+                    <h1 class="text-white">Ecommerce Fulfillment</h1>
+                    <p class="text-white">Search online - see space fast</p>
+                    <a class="hero-btn" href="#">Get Started</a>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <button
+            class="carousel-control-prev d-none"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next d-none"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <!-- Carousel End  -->
+    </header>
+    <!-- Header End  -->
+
+    <main>
+      <!-- Hero Area Started  -->
+      <!-- <section class="hero-area">
+        <div class="container">
+          <div class="row g-0">
+            <div class="col-12">
+              <div class="text-content">
+                <h2>Service Name</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Hero Area Started  -->
+
+
+      <!-- service-list section Start -->
+      <section class="service-list" id="service-list" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+          <div class="row g-4">
+            <ul class="nav nav-pills p-0" id="pills-tab" role="tablist">
+              <li class="nav-item col-md-4">
+                  <a class="tab-btn active"
+                      id="pills-profile-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-profile"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-profile"
+                      aria-selected="false">
+                    <div>
+                      <div class="service-list-box services-box mx-auto">
+                        <i class="fas fa-warehouse fa-3x service-icon"></i>
+                        <h4>Warehouse Fulfillment</h4>
+                        <p>
+                          Brands need multiple, distributed fulfillment locations in order to enable the one- and two-day shipping costumers expect, affordably.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+              </li>
+              <li class="nav-item col-md-4">
+                  <a class="tab-btn"
+                      id="pills-part-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-part"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-part"
+                      aria-selected="false">
+                    <div>
+                      <div class="service-list-box services-box mx-auto">
+                        <i class="fas fa-boxes fa-3x service-icon"></i>
+                        <h4>Logistic Services</h4>
+                        <p>
+                          Brands need multiple, distributed fulfillment locations in order to enable the one- and two-day shipping costumers expect, affordably.
+                        </p>
+                      </div>
+                    </div>
+                  </a>
+              </li>
+              <li class="nav-item col-md-4">
+                  <!-- <a class="tab-btn"
+                      id="pills-home-tab"
+                      data-bs-toggle="pill"
+                      data-bs-target="#pills-home"
+                      type="button"
+                      role="tab"
+                      aria-controls="pills-home"
+                      aria-selected="true"> -->
+                    <div>
+                      <div class="service-list-box-disabled services-box mx-auto">
+                        <i class="fas fa-cart-plus fa-3x service-icon"></i>
+                        <h4>Ecommerce Fulfillment</h4>
+                        <p>
+                          We take your stock, store it, pick, pack and deliver it for you automatically. In just a few simple steps, you’ll be selling, growing and focusing on the things you enjoy most.<br>
+                          <span style="color: #23b8bf"><b>Coming Soon</b></span>
+                        </p>
+                      </div>
+                    </div>
+                  <!-- </a> -->
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- service-list section End -->
+
+      <!-- Description Started  -->
+      <section class="description">
+        <div class="container">
+          <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active"
+                    id="pills-profile"
+                    role="tabpanel"
+                    aria-labelledby="pills-profile-tab">
+              <div class="row">
+                <!-- 
+                <h2 class="title text-center pb-4">Warehousing and Fulfillment Center Network</h2>
+                <div class="spec-features">
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                </div> 
+                -->
+                <h4 class="text-center mb-5">How it Works</h4>
+                  <div class="spec-tabs">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="connect-your-brand-tab" data-bs-toggle="tab" data-bs-target="#connect-your-brand" type="button" role="tab" aria-controls="connect-your-brand" aria-selected="true"><h6>Move Fast</h6></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="optimize-inventory-tab" data-bs-toggle="tab" data-bs-target="#optimize-inventory" type="button" role="tab" aria-controls="optimize-inventory" aria-selected="false"><h6>Set up Control Tower</h6></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="omnichannel-operations-tab" data-bs-toggle="tab" data-bs-target="#omnichannel-operations" type="button" role="tab" aria-controls="omnichannel-operations" aria-selected="false"><h6>Improve Operations</h6></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="fast-affordable-fulfillment-tab" data-bs-toggle="tab" data-bs-target="#fast-affordable-fulfillment" type="button" role="tab" aria-controls="fast-affordable-fulfillment" aria-selected="false"><h6>Fast, Affordable Fulfillment</h6></button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane mt-5 fade show active" id="connect-your-brand" role="tabpanel" aria-labelledby="connect-your-brand-tab">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/warehouse-fulfillment/move-fast.jpg" alt="Move Fast" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Move Fast</h4>
+                            <p>Find flexible warehousing services where you need them, when you need them and for as long as you want them.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane mt-5 fade" id="optimize-inventory" role="tabpanel" aria-labelledby="optimize-inventory-tab">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/warehouse-fulfillment/set-up-control-tower.jpg" alt="Set up Control Tower" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Set up Control Tower</h4>
+                            <p>Take full control of your stock, replenishment and fulfilment; scale up or down use of warehousing in line with the business.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane mt-5 fade" id="omnichannel-operations" role="tabpanel" aria-labelledby="omnichannel-operations-tab">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/warehouse-fulfillment/improve-operations.jpg" alt="Improve Operations" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Improve Operations</h4>
+                            <p>Track and optimise performance of your logistics operations; effectively manage risks and business volatility.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane mt-5 fade" id="fast-affordable-fulfillment" role="tabpanel" aria-labelledby="fast-affordable-fulfillment-tab">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/warehouse-fulfillment/fast-affordable-fulfillment.jpg" alt="Fast Affordable Fulfillment" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Satisfy customer demand for speedy shipping</h4>
+                            <p>Gudam picks, packs, and ships your order to your exact specifications, delivering a seamless experience for your customers.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="tab-pane fade"
+                    id="pills-part"
+                    role="tabpanel"
+                    aria-labelledby="pills-part-tab">
+              <div class="row">
+                <!-- 
+                <h2 class="title text-center pb-4">Get A Extra Hand To Manage Your Logistic Services</h2>
+                <div class="spec-features">
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                </div> 
+                -->
+                <h4 class="text-center mb-5">How it Works</h4>
+                  <div class="spec-tabs">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="order-fulfillment-tab" data-bs-toggle="tab" data-bs-target="#order-fulfillment" type="button" role="tab" aria-controls="order-fulfillment" aria-selected="true"><h6>Order Fulfillment</h6></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="transportation-services-tab" data-bs-toggle="tab" data-bs-target="#transportation-services" type="button" role="tab" aria-controls="transportation-services" aria-selected="false"><h6>Transportation Services</h6></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="agent-service-tab" data-bs-toggle="tab" data-bs-target="#agent-service" type="button" role="tab" aria-controls="agent-service" aria-selected="false"><h6>Agent Service</h6></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="shipping-tab" data-bs-toggle="tab" data-bs-target="#shipping" type="button" role="tab" aria-controls="shipping" aria-selected="false"><h6>Shipping</h6></button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane mt-5 fade show active" id="order-fulfillment" role="tabpanel" aria-labelledby="order-fulfillment-tab">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/warehouse-fulfillment/order-fulfillment.jpg" alt="Order Fulfillment" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Order Fulfillment</h4>
+                            <p>If you’ve ever made a purchase online, then you know how nice it is to receive a package at your door shortly after you order it. But most people don’t think about the process behind order fulfillment services that make fast shipping possible. A lot goes on behind the scenes. The ability to ship an order quickly, accurately and affordably is a well-designed, streamlined process with several steps, each just as important as the next. Just one misstep can result in an unhappy customer and loss of future sales. This entire process is known as order fulfillment. Gudam is going to handle all those responsiblities for you.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane mt-5 fade" id="transportation-services" role="tabpanel" aria-labelledby="transportation-services-tab">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/warehouse-fulfillment/transportation-services.jpg" alt="Transportation Services" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Transportation Services</h4>
+                            <p>Gudam takes the carriage of Goods from one place to another on the instructions of the Customer, the loading and unloading of the Goods, the dispatch of transportation vehicles and the processing of a Customer order as it relates to Delivery.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane mt-5 fade" id="agent-service" role="tabpanel" aria-labelledby="agent-service-tab">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/warehouse-fulfillment/agent-service.jpg" alt="Agent Service" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Agent Service</h4>
+                            <p>Our experienced teams will coordinate with your partners and internal stakeholders to ensure all related filings, documentation and physical movements are effortlessly coordinated to ensure everything ships as planned with the carrier specified, and all exceptions effectively resolved.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane mt-5 fade" id="shipping" role="tabpanel" aria-labelledby="shipping-tab">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/warehouse-fulfillment/shipping.jpg" alt="Shipping" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Shipping</h4>
+                            <p>Get one step ahead of your competition and reach your customers with the strength of the Gudam. Gudam has one goal: making your parcel delivery services work to your logistical and competitive advantage.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <div class="tab-pane fade"
+                    id="pills-home"
+                    role="tabpanel"
+                    aria-labelledby="pills-home-tab">
+              <div class="row">
+                <h2 class="title text-center pb-4">Boost your eCommerce Brand</h2>
+                <div class="spec-features">
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                  <div class="col-md-3 spec-features-width" data-aos="fade-up" data-aos-duration="1000">
+                    <i class="fas fa-handshake fa-2x features-icon"></i>
+                    <h5>Nationwide network capacity</h5>
+                    <p>The Gudam Network spans the entire country, with hundreds of fulfillment centers running Gudam software in every city of Bangladesh</p>
+                  </div>
+                </div>
+                <h4 class="text-center mb-5">How it Works</h4>
+                  <div class="spec-tabs">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="connect-your-brand-tab2" data-bs-toggle="tab" data-bs-target="#connect-your-brand2" type="button" role="tab" aria-controls="connect-your-brand2" aria-selected="true"><h6>Connect Your Brand</h6></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="optimize-inventory-tab2" data-bs-toggle="tab" data-bs-target="#optimize-inventory2" type="button" role="tab" aria-controls="optimize-inventory2" aria-selected="false"><h6>Optimize Inventory</h6></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="omnichannel-operations-tab2" data-bs-toggle="tab" data-bs-target="#omnichannel-operations2" type="button" role="tab" aria-controls="omnichannel-operations2" aria-selected="false"><h6>Omnichannel Operations</h6></button>
+                      </li>
+                      <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="fast-affordable-fulfillment-tab2" data-bs-toggle="tab" data-bs-target="#fast-affordable-fulfillment2" type="button" role="tab" aria-controls="fast-affordable-fulfillment2" aria-selected="false"><h6>Fast, Affordable Fulfillment</h6></button>
+                      </li>
+                    </ul>
+                    <div class="tab-content" id="nav-tabContent">
+                      <div class="tab-pane mt-5 fade show active" id="connect-your-brand2" role="tabpanel" aria-labelledby="connect-your-brand-tab2">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/connect-your-brand.jpg" alt="img" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Connect your brand with Flowspace</h4>
+                            <p>Connect your storefronts, shopping carts, ecommerce marketplaces and more to the Flowspace platform. Our integrations enable seamless, one-click set-up.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane mt-5 fade" id="optimize-inventory2" role="tabpanel" aria-labelledby="optimize-inventory-tab2">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/connect-your-brand.jpg" alt="img" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Optimize Inventory</h4>
+                            <p>Connect your storefronts, shopping carts, ecommerce marketplaces and more to the Flowspace platform. Our integrations enable seamless, one-click set-up.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane mt-5 fade" id="omnichannel-operations2" role="tabpanel" aria-labelledby="omnichannel-operations-tab2">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/connect-your-brand.jpg" alt="img" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Omnichannel Operations</h4>
+                            <p>Connect your storefronts, shopping carts, ecommerce marketplaces and more to the Flowspace platform. Our integrations enable seamless, one-click set-up.</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tab-pane mt-5 fade" id="fast-affordable-fulfillment2" role="tabpanel" aria-labelledby="fast-affordable-fulfillment-tab2">
+                        <div class="spec-tabs-content">
+                          <div class="col-md-5">
+                            <img class="img-fluid" src="images/connect-your-brand.jpg" alt="img" />
+                          </div>
+                          <div class="col-md-7 content-box">
+                            <h4>Fast, Affordable Fulfillment</h4>
+                            <p>Connect your storefronts, shopping carts, ecommerce marketplaces and more to the Flowspace platform. Our integrations enable seamless, one-click set-up.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Description Started  -->
+
+      
+
+      <!-- Call To Action  start-->
+      <section class="cta" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+          <div class="row">
+            <h3>Have More Queries?</h3>
+          </div>
+          <a href="contact-us.html" class="more-btn">Contact Us</a>
+        </div>
+      </section>
+      <!-- Call To Action  End-->
+    </main>
+
+    <footer class="align-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <img src="icon/logo.png" alt="logo" />
+            <p class="footer-text">
+              Gudam solves the hardest omnichannel logistics problems for the world’s largest retailers and brands.
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="space-sub-title mb-3">Our Company</h5>
+            <ul>
+              <li>
+                <a href="about-us.html">About Us</a>
+              </li>
+              <li>
+                <a href="terms.html">Terms & Privacy Policy</a>
+              </li>
+              <li>
+                <a href="careers.html">Career</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="space-sub-title mb-3">Customer Service</h5>
+            <ul>
+              <li>
+                <a href="single-service.html">Our Services</a>
+              </li>
+              <li>
+                <a href="gudam-list.html">Warehouse list</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h5 class="space-sub-title mb-3">Contact Us</h5>
+            <ul>
+              <li class="d-flex align-items-center gap-2 mb-2 responsive-flex">
+                <a href="#">
+                  HB Tower, Unit-401, House-1/A, Road 23
+                  <br>
+                  Gulshan - 1, Dhaka - 1212
+                </a>
+              </li>
+              <li class="d-flex align-items-center gap-2 mb-2 responsive-flex">
+                <i class="far fa-envelope"></i>
+                <a href="tel:+8801971234727">+880 1971-234727</a>
+              </li>
+              <li class="d-flex align-items-center gap-2 responsive-flex">
+                <i class="fas fa-phone-alt"></i>
+                <a href="mailto:contact@gudam.com.bd">contact@gudam.com.bd</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bottom Footer  Start-->
+    <section class="bottom-footer">
+      <h6 class="m-0">&copy; 2021 Gudam Company Ltd.</h6>
+    </section>
+    <!-- Bottom Footer End -->
+
+    <!-- AOS Animation Js  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+    AOS.init({once: true});
+    </script>
+
+    <!-- Owl Carousel Js  -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
